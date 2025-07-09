@@ -1,7 +1,65 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* General body styles */
 body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #111;
   margin: 0;
-  overflow: hidden;
+  padding: 0;
 }
-canvas {
-  display: block;
+
+/* Header layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+
+header .left {
+  color: #aaa;
+}
+
+header .center {
+  font-weight: 400;
+  text-align: center;
+}
+
+header .center span {
+  font-size: 12px;
+  color: #888;
+}
+
+header .right a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* Main content area */
+main {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Section title formatting */
+.section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+/* Paragraph style */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: #111;
 }
